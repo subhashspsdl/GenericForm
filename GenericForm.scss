@@ -1,0 +1,132 @@
+.generic-form-container{
+    background-color: white;
+    width:40%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    color: #29404f;
+    .genric-form-header{
+        display: block;
+        line-height: 3rem;
+        text-align: center;
+        &::after{
+            content: "";
+            height: 2px;
+            background-color: black;;
+            width: 100%;
+        }
+        span{
+            color:green;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 60px;
+        }
+        
+    }
+    input[type=submit]{
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 50px;
+        background: #257fba;
+        border: none;
+        outline: none;
+        padding:10px;
+        color: white;
+        font-weight: bold;
+    }
+}
+.text-input-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:5px auto;
+    label{
+        margin: 5px;
+    }
+    span{
+        margin: 5px;
+        font-size: 15px;
+        color: #de7159;
+    }
+    input{
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+    }
+} 
+
+.select-input-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:5px auto;
+    label{
+        margin: 5px;
+    }
+    span{
+        margin: 5px;
+        font-size: 15px;
+        color: #de7159;
+    }
+
+}
+
+.file-input-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:5px auto;
+    label{
+        margin: 5px;
+    }
+    span{
+        margin: 5px;
+        font-size: 15px;
+        color: #de7159;
+    }
+    input{
+        width: 100%;
+    }
+
+}
+
+.radio-input-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:5px auto;
+    div{
+        display: block;
+        input{
+            display: inline;
+            margin: 5px;
+        }
+    }
+    
+    label{
+        margin: 5px;
+    }
+    span{
+        margin: 5px;
+        font-size: 15px;
+        color: #de7159;
+    }
+
+}
+
+.checkbox-input-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:5px auto;
+    label{
+        margin: 5px;
+    }
+    span{
+        margin: 5px;
+        font-size: 15px;
+        color: #de7159;
+    }
+
+}
